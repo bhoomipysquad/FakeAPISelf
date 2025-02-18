@@ -9,7 +9,7 @@ body = {
   "email": "mishra_sachin8989d0@nader.example",
   "gender": "male",
   "status": "inactive"
-}
+       }
 
 response = requests.post(url , headers=header , json = body)
 
