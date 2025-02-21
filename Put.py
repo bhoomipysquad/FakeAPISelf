@@ -2,8 +2,7 @@ import requests
 
 
 url = "https://fakerestapi.azurewebsites.net/api/v1/Activities/5"
-header = {'accept' : 'text/plain'
-             }
+header = {'accept' : 'text/plain'  }
 
 response = requests.get(url , headers = header)
 print("Before update")
